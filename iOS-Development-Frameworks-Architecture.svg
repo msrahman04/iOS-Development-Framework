@@ -1,0 +1,252 @@
+<svg viewBox="0 0 1200 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="appGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#007AFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#005DD1;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="uiGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#34C759;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2A9E47;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="mediaGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF9500;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E6850E;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="coreGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF3B30;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E6322A;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="kernelGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8E8E93;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6D6D70;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="900" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="600" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1d1d1f">iOS Development Frameworks Architecture</text>
+  
+  <!-- Application Layer -->
+  <rect x="50" y="60" width="1100" height="120" rx="10" fill="url(#appGradient)" stroke="#005DD1" stroke-width="2"/>
+  <text x="600" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">Application Layer</text>
+  
+  <!-- App Types -->
+  <rect x="80" y="100" width="120" height="60" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
+  <text x="140" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Native iOS Apps</text>
+  <text x="140" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Swift/Objective-C</text>
+  <text x="140" y="148" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Xcode</text>
+  
+  <rect x="220" y="100" width="120" height="60" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
+  <text x="280" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Apple Watch</text>
+  <text x="280" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">WatchKit</text>
+  <text x="280" y="148" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">WatchConnectivity</text>
+  
+  <rect x="360" y="100" width="120" height="60" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
+  <text x="420" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Widgets</text>
+  <text x="420" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">WidgetKit</text>
+  <text x="420" y="148" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">SwiftUI</text>
+  
+  <rect x="500" y="100" width="120" height="60" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
+  <text x="560" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">App Clips</text>
+  <text x="560" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Lightweight</text>
+  <text x="560" y="148" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Experience</text>
+  
+  <rect x="640" y="100" width="120" height="60" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
+  <text x="700" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Extensions</text>
+  <text x="700" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Share, Today</text>
+  <text x="700" y="148" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Keyboard, etc.</text>
+  
+  <rect x="780" y="100" width="120" height="60" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
+  <text x="840" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Siri Shortcuts</text>
+  <text x="840" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Intents</text>
+  <text x="840" y="148" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">IntentsUI</text>
+  
+  <rect x="920" y="100" width="120" height="60" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
+  <text x="980" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">AR/VR Apps</text>
+  <text x="980" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">ARKit</text>
+  <text x="980" y="148" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">RealityKit</text>
+  
+  <!-- UI Frameworks Layer -->
+  <rect x="50" y="200" width="1100" height="140" rx="10" fill="url(#uiGradient)" stroke="#2A9E47" stroke-width="2"/>
+  <text x="600" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">UI Frameworks Layer</text>
+  
+  <!-- SwiftUI Section -->
+  <rect x="80" y="245" width="260" height="80" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
+  <text x="210" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">SwiftUI (Modern)</text>
+  <text x="110" y="285" font-family="Arial, sans-serif" font-size="11" fill="white">• Declarative UI</text>
+  <text x="110" y="300" font-family="Arial, sans-serif" font-size="11" fill="white">• View Protocol</text>
+  <text x="110" y="315" font-family="Arial, sans-serif" font-size="11" fill="white">• State Management</text>
+  <text x="230" y="285" font-family="Arial, sans-serif" font-size="11" fill="white">• Combine Integration</text>
+  <text x="230" y="300" font-family="Arial, sans-serif" font-size="11" fill="white">• Cross-platform</text>
+  <text x="230" y="315" font-family="Arial, sans-serif" font-size="11" fill="white">• Animation</text>
+  
+  <!-- UIKit Section -->
+  <rect x="360" y="245" width="260" height="80" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
+  <text x="490" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">UIKit (Traditional)</text>
+  <text x="390" y="285" font-family="Arial, sans-serif" font-size="11" fill="white">• Imperative UI</text>
+  <text x="390" y="300" font-family="Arial, sans-serif" font-size="11" fill="white">• UIViewController</text>
+  <text x="390" y="315" font-family="Arial, sans-serif" font-size="11" fill="white">• Auto Layout</text>
+  <text x="510" y="285" font-family="Arial, sans-serif" font-size="11" fill="white">• Interface Builder</text>
+  <text x="510" y="300" font-family="Arial, sans-serif" font-size="11" fill="white">• Storyboards</text>
+  <text x="510" y="315" font-family="Arial, sans-serif" font-size="11" fill="white">• Mature & Stable</text>
+  
+  <!-- Specialized UI -->
+  <rect x="640" y="245" width="260" height="80" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
+  <text x="770" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Specialized UI</text>
+  <text x="670" y="285" font-family="Arial, sans-serif" font-size="11" fill="white">• GameplayKit</text>
+  <text x="670" y="300" font-family="Arial, sans-serif" font-size="11" fill="white">• SpriteKit</text>
+  <text x="670" y="315" font-family="Arial, sans-serif" font-size="11" fill="white">• SceneKit</text>
+  <text x="780" y="285" font-family="Arial, sans-serif" font-size="11" fill="white">• Metal</text>
+  <text x="780" y="300" font-family="Arial, sans-serif" font-size="11" fill="white">• PDFKit</text>
+  <text x="780" y="315" font-family="Arial, sans-serif" font-size="11" fill="white">• WebKit</text>
+  
+  <!-- Application Services Layer -->
+  <rect x="50" y="360" width="1100" height="180" rx="10" fill="url(#mediaGradient)" stroke="#E6850E" stroke-width="2"/>
+  <text x="600" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">Application Services Layer</text>
+  
+  <!-- Row 1 -->
+  <rect x="80" y="405" width="140" height="55" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
+  <text x="150" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Networking</text>
+  <text x="90" y="440" font-family="Arial, sans-serif" font-size="10" fill="white">• URLSession</text>
+  <text x="90" y="450" font-family="Arial, sans-serif" font-size="10" fill="white">• Network</text>
+  
+  <rect x="240" y="405" width="140" height="55" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
+  <text x="310" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Data Persistence</text>
+  <text x="250" y="440" font-family="Arial, sans-serif" font-size="10" fill="white">• Core Data</text>
+  <text x="250" y="450" font-family="Arial, sans-serif" font-size="10" fill="white">• CloudKit</text>
+  
+  <rect x="400" y="405" width="140" height="55" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
+  <text x="470" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Location</text>
+  <text x="410" y="440" font-family="Arial, sans-serif" font-size="10" fill="white">• Core Location</text>
+  <text x="410" y="450" font-family="Arial, sans-serif" font-size="10" fill="white">• MapKit</text>
+  
+  <rect x="560" y="405" width="140" height="55" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
+  <text x="630" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Media</text>
+  <text x="570" y="440" font-family="Arial, sans-serif" font-size="10" fill="white">• AVFoundation</text>
+  <text x="570" y="450" font-family="Arial, sans-serif" font-size="10" fill="white">• Photos</text>
+  
+  <rect x="720" y="405" width="140" height="55" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
+  <text x="790" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Security</text>
+  <text x="730" y="440" font-family="Arial, sans-serif" font-size="10" fill="white">• Keychain</text>
+  <text x="730" y="450" font-family="Arial, sans-serif" font-size="10" fill="white">• CryptoKit</text>
+  
+  <rect x="880" y="405" width="140" height="55" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
+  <text x="950" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Health</text>
+  <text x="890" y="440" font-family="Arial, sans-serif" font-size="10" fill="white">• HealthKit</text>
+  <text x="890" y="450" font-family="Arial, sans-serif" font-size="10" fill="white">• ResearchKit</text>
+  
+  <!-- Row 2 -->
+  <rect x="80" y="475" width="140" height="55" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
+  <text x="150" y="495" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Machine Learning</text>
+  <text x="90" y="510" font-family="Arial, sans-serif" font-size="10" fill="white">• Core ML</text>
+  <text x="90" y="520" font-family="Arial, sans-serif" font-size="10" fill="white">• Vision</text>
+  
+  <rect x="240" y="475" width="140" height="55" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
+  <text x="310" y="495" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Notifications</text>
+  <text x="250" y="510" font-family="Arial, sans-serif" font-size="10" fill="white">• UserNotifications</text>
+  <text x="250" y="520" font-family="Arial, sans-serif" font-size="10" fill="white">• Push Notifications</text>
+  
+  <rect x="400" y="475" width="140" height="55" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
+  <text x="470" y="495" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Payments</text>
+  <text x="410" y="510" font-family="Arial, sans-serif" font-size="10" fill="white">• PassKit</text>
+  <text x="410" y="520" font-family="Arial, sans-serif" font-size="10" fill="white">• StoreKit</text>
+  
+  <rect x="560" y="475" width="140" height="55" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
+  <text x="630" y="495" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Communication</text>
+  <text x="570" y="510" font-family="Arial, sans-serif" font-size="10" fill="white">• MessageUI</text>
+  <text x="570" y="520" font-family="Arial, sans-serif" font-size="10" fill="white">• Contacts</text>
+  
+  <rect x="720" y="475" width="140" height="55" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
+  <text x="790" y="495" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Reactive</text>
+  <text x="730" y="510" font-family="Arial, sans-serif" font-size="10" fill="white">• Combine</text>
+  <text x="730" y="520" font-family="Arial, sans-serif" font-size="10" fill="white">• Publishers</text>
+  
+  <rect x="880" y="475" width="140" height="55" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
+  <text x="950" y="495" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">AR/VR</text>
+  <text x="890" y="510" font-family="Arial, sans-serif" font-size="10" fill="white">• ARKit</text>
+  <text x="890" y="520" font-family="Arial, sans-serif" font-size="10" fill="white">• RealityKit</text>
+  
+  <!-- Core Services Layer -->
+  <rect x="50" y="560" width="1100" height="140" rx="10" fill="url(#coreGradient)" stroke="#E6322A" stroke-width="2"/>
+  <text x="600" y="585" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">Core Services Layer</text>
+  
+  <rect x="80" y="605" width="200" height="80" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
+  <text x="180" y="625" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Foundation</text>
+  <text x="90" y="645" font-family="Arial, sans-serif" font-size="11" fill="white">• Basic Data Types</text>
+  <text x="90" y="660" font-family="Arial, sans-serif" font-size="11" fill="white">• Collections (Array, Dict)</text>
+  <text x="90" y="675" font-family="Arial, sans-serif" font-size="11" fill="white">• String, Date, URL</text>
+  
+  <rect x="300" y="605" width="200" height="80" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
+  <text x="400" y="625" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Core Animation</text>
+  <text x="310" y="645" font-family="Arial, sans-serif" font-size="11" fill="white">• CALayer</text>
+  <text x="310" y="660" font-family="Arial, sans-serif" font-size="11" fill="white">• Animations & Transitions</text>
+  <text x="310" y="675" font-family="Arial, sans-serif" font-size="11" fill="white">• GPU Acceleration</text>
+  
+  <rect x="520" y="605" width="200" height="80" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
+  <text x="620" y="625" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Core Graphics</text>
+  <text x="530" y="645" font-family="Arial, sans-serif" font-size="11" fill="white">• 2D Drawing</text>
+  <text x="530" y="660" font-family="Arial, sans-serif" font-size="11" fill="white">• PDF Generation</text>
+  <text x="530" y="675" font-family="Arial, sans-serif" font-size="11" fill="white">• Image Processing</text>
+  
+  <rect x="740" y="605" width="200" height="80" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
+  <text x="840" y="625" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Grand Central Dispatch</text>
+  <text x="750" y="645" font-family="Arial, sans-serif" font-size="11" fill="white">• Concurrency</text>
+  <text x="750" y="660" font-family="Arial, sans-serif" font-size="11" fill="white">• Queue Management</text>
+  <text x="750" y="675" font-family="Arial, sans-serif" font-size="11" fill="white">• Background Tasks</text>
+  
+  <rect x="960" y="605" width="160" height="80" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
+  <text x="1040" y="625" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Core Text</text>
+  <text x="970" y="645" font-family="Arial, sans-serif" font-size="11" fill="white">• Typography</text>
+  <text x="970" y="660" font-family="Arial, sans-serif" font-size="11" fill="white">• Text Layout</text>
+  <text x="970" y="675" font-family="Arial, sans-serif" font-size="11" fill="white">• Font Management</text>
+  
+  <!-- Kernel and Hardware Layer -->
+  <rect x="50" y="720" width="1100" height="120" rx="10" fill="url(#kernelGradient)" stroke="#6D6D70" stroke-width="2"/>
+  <text x="600" y="745" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">Kernel & Hardware Layer</text>
+  
+  <rect x="80" y="765" width="180" height="60" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
+  <text x="170" y="785" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Darwin Kernel</text>
+  <text x="90" y="800" font-family="Arial, sans-serif" font-size="10" fill="white">• XNU (Darwin)</text>
+  <text x="90" y="813" font-family="Arial, sans-serif" font-size="10" fill="white">• Mach Microkernel</text>
+  
+  <rect x="280" y="765" width="180" height="60" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
+  <text x="370" y="785" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Device Drivers</text>
+  <text x="290" y="800" font-family="Arial, sans-serif" font-size="10" fill="white">• Hardware Abstraction</text>
+  <text x="290" y="813" font-family="Arial, sans-serif" font-size="10" fill="white">• I/O Kit</text>
+  
+  <rect x="480" y="765" width="180" height="60" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
+  <text x="570" y="785" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Hardware</text>
+  <text x="490" y="800" font-family="Arial, sans-serif" font-size="10" fill="white">• A-Series Chips</text>
+  <text x="490" y="813" font-family="Arial, sans-serif" font-size="10" fill="white">• Neural Engine</text>
+  
+  <rect x="680" y="765" width="180" height="60" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
+  <text x="770" y="785" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Security</text>
+  <text x="690" y="800" font-family="Arial, sans-serif" font-size="10" fill="white">• Secure Enclave</text>
+  <text x="690" y="813" font-family="Arial, sans-serif" font-size="10" fill="white">• Code Signing</text>
+  
+  <rect x="880" y="765" width="240" height="60" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
+  <text x="1000" y="785" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Development Tools</text>
+  <text x="890" y="800" font-family="Arial, sans-serif" font-size="10" fill="white">• Xcode IDE • Swift Compiler</text>
+  <text x="890" y="813" font-family="Arial, sans-serif" font-size="10" fill="white">• iOS Simulator • Instruments</text>
+  
+  <!-- Arrows showing relationships -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#666" />
+    </marker>
+  </defs>
+  
+  <!-- Vertical arrows -->
+  <line x1="200" y1="180" x2="200" y2="200" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="500" y1="180" x2="500" y2="200" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="800" y1="180" x2="800" y2="200" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <line x1="200" y1="340" x2="200" y2="360" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="500" y1="340" x2="500" y2="360" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="800" y1="340" x2="800" y2="360" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <line x1="200" y1="540" x2="200" y2="560" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="500" y1="540" x2="500" y2="560" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="800" y1="540" x2="800" y2="560" stroke="#666"
