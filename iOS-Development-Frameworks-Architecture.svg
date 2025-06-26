@@ -20,6 +20,9 @@
       <stop offset="0%" style="stop-color:#8E8E93;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#6D6D70;stop-opacity:1" />
     </linearGradient>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#666" />
+    </marker>
   </defs>
   
   <!-- Background -->
@@ -90,7 +93,7 @@
   <text x="390" y="315" font-family="Arial, sans-serif" font-size="11" fill="white">• Auto Layout</text>
   <text x="510" y="285" font-family="Arial, sans-serif" font-size="11" fill="white">• Interface Builder</text>
   <text x="510" y="300" font-family="Arial, sans-serif" font-size="11" fill="white">• Storyboards</text>
-  <text x="510" y="315" font-family="Arial, sans-serif" font-size="11" fill="white">• Mature & Stable</text>
+  <text x="510" y="315" font-family="Arial, sans-serif" font-size="11" fill="white">• Mature</text>
   
   <!-- Specialized UI -->
   <rect x="640" y="245" width="260" height="80" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
@@ -106,7 +109,7 @@
   <rect x="50" y="360" width="1100" height="180" rx="10" fill="url(#mediaGradient)" stroke="#E6850E" stroke-width="2"/>
   <text x="600" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">Application Services Layer</text>
   
-  <!-- Row 1 -->
+  <!-- Row 1 Services -->
   <rect x="80" y="405" width="140" height="55" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
   <text x="150" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Networking</text>
   <text x="90" y="440" font-family="Arial, sans-serif" font-size="10" fill="white">• URLSession</text>
@@ -137,7 +140,7 @@
   <text x="890" y="440" font-family="Arial, sans-serif" font-size="10" fill="white">• HealthKit</text>
   <text x="890" y="450" font-family="Arial, sans-serif" font-size="10" fill="white">• ResearchKit</text>
   
-  <!-- Row 2 -->
+  <!-- Row 2 Services -->
   <rect x="80" y="475" width="140" height="55" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
   <text x="150" y="495" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Machine Learning</text>
   <text x="90" y="510" font-family="Arial, sans-serif" font-size="10" fill="white">• Core ML</text>
@@ -181,7 +184,7 @@
   <rect x="300" y="605" width="200" height="80" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
   <text x="400" y="625" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Core Animation</text>
   <text x="310" y="645" font-family="Arial, sans-serif" font-size="11" fill="white">• CALayer</text>
-  <text x="310" y="660" font-family="Arial, sans-serif" font-size="11" fill="white">• Animations & Transitions</text>
+  <text x="310" y="660" font-family="Arial, sans-serif" font-size="11" fill="white">• Animations</text>
   <text x="310" y="675" font-family="Arial, sans-serif" font-size="11" fill="white">• GPU Acceleration</text>
   
   <rect x="520" y="605" width="200" height="80" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
@@ -204,7 +207,7 @@
   
   <!-- Kernel and Hardware Layer -->
   <rect x="50" y="720" width="1100" height="120" rx="10" fill="url(#kernelGradient)" stroke="#6D6D70" stroke-width="2"/>
-  <text x="600" y="745" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">Kernel & Hardware Layer</text>
+  <text x="600" y="745" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">Kernel and Hardware Layer</text>
   
   <rect x="80" y="765" width="180" height="60" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
   <text x="170" y="785" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Darwin Kernel</text>
@@ -231,14 +234,7 @@
   <text x="890" y="800" font-family="Arial, sans-serif" font-size="10" fill="white">• Xcode IDE • Swift Compiler</text>
   <text x="890" y="813" font-family="Arial, sans-serif" font-size="10" fill="white">• iOS Simulator • Instruments</text>
   
-  <!-- Arrows showing relationships -->
-  <defs>
-    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
-      <polygon points="0 0, 10 3.5, 0 7" fill="#666" />
-    </marker>
-  </defs>
-  
-  <!-- Vertical arrows -->
+  <!-- Vertical arrows showing dependencies -->
   <line x1="200" y1="180" x2="200" y2="200" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
   <line x1="500" y1="180" x2="500" y2="200" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
   <line x1="800" y1="180" x2="800" y2="200" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
@@ -249,4 +245,6 @@
   
   <line x1="200" y1="540" x2="200" y2="560" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
   <line x1="500" y1="540" x2="500" y2="560" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
-  <line x1="800" y1="540" x2="800" y2="560" stroke="#666"
+  <line x1="800" y1="540" x2="800" y2="560" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <line x1="200" y1="700" x2="200" y2="720" stroke="#666" stroke-width="2" marker-en
